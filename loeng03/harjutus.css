@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(47, 155, 155);
+}
+
+form {
+    background-color: blanchedalmond;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.vahe-yleval {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+}

@@ -8,14 +8,41 @@ body {
     background-color: gold;
 }
 
-.konteiner {
+.konteiner {    
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(204, 155, 216);
     width: 80%;
+
 }
+
+.uudis-pealkiri {
+    color: #efef14;
+    border: dashed;
+    border-color: red;
+    margin-top: 100px;
+}
+
 
 .uudis-kuupaev {
     font-size: 0.75rem;
     text-decoration: uppercase;
-    color: rgb(56, 206, 33);
+    color: rgb(0 33 252);
     font-family: monospace;
 }
+
+
+.pilt {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(84, 161, 217);
+}
+
+

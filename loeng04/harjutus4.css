@@ -1,0 +1,61 @@
+html {
+    font-family: 'Lora', serif;
+    font-family: 'Phudu', cursive;
+    background-color: whitesmoke;
+
+}
+
+header {
+    width: 100%;
+    background-color: rgb(1 72 104 / 45%);
+    height: 200px;
+    border-color: black;
+    border-style:solid;
+    background: url('https://media.istockphoto.com/id/949190756/photo/various-sport-equipments-on-grass.jpg?s=612x612&w=0&k=20&c=s0Lz_k0Vq_9P6JBETBMtLsK0lSKEHg4Tnqz9KlRCSHA=');
+    background-size: 23rem;
+    
+    
+    
+    
+}
+
+.tiitel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.kast {
+    width: 26.912%;
+    height: 10px;
+    background-color: #aec993;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    /*margin: 1rem;*/
+    padding: 3rem;
+    float: left;
+    text-align: center;
+
+}
+
+h1 {
+    color: gold;
+}
+
+.sisu{
+    
+    height: 300px;
+  padding: 50px;
+  background-color: #aec993;
+  border-width: 1px;
+  border-style: solid;
+  text-align: left;
+  text-decoration: wavy;
+  
+  
+}
+
+
+

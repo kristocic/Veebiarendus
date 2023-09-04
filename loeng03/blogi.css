@@ -13,6 +13,7 @@ body {
     margin-right: auto;
     background-color: rgb(204, 155, 216);
     width: 80%;
+    max-width: 1000px;
 
 }
 

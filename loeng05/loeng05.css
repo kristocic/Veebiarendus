@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(194, 200, 118);
+    font-size: 1.5 rem;
+}
+
+.tahvlivaade, .desktopivaade {
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: darkred;
+        font-size: 2 rem;
+        color: white;
+    }
+
+    .tahvlivaade {
+        display: block;
+    }
+
+    .mobiilivaade {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: deeppink;
+    }
+
+    .tahvlivaade {
+        display: none;
+    }
+    
+    .desktopivaade {
+        display: block;
+    }
+}

@@ -34,3 +34,22 @@ body {
     }
    
 }
+
+.menyyvalikud {
+    font-size: 16.67 px;
+    font-weight: 800;
+}
+
+.menyyvalikud:hover {
+    color: rgb(196, 115, 115);
+}
+
+
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(196, 115, 115);
+}

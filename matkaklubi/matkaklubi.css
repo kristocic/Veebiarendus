@@ -28,23 +28,48 @@ body {
     line-height: 30px;
 }
 
-@media screen and (min-width: 1000px) {
-    .paiskonteiner {
-        background-image: url(./assets/Hills@2x.png);
-    }
-   
+.pealkiri-pilt {
+    display: none;
 }
 
-.menyyvalikud {
-    font-size: 16.67 px;
+.rida {
+    display: flex;
+}
+
+.rida h2 {
+
+    font-size: 39.57px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
     font-weight: 800;
+}
+
+.liblikas1 {
+    width: 75.27px;
+    height: 66.04px;
+    margin-top: -40px;
+    margin-left: auto;
+}
+
+.pealkiri-kastid {
+    margin-top: 50px;
+}
+
+
+
+.menyyvalikud {
+    font-size: 16.67px;
+    font-weight: 800;
+    margin-top: 20px;
 }
 
 .menyyvalikud:hover {
     color: rgb(196, 115, 115);
 }
 
-
+a {
+    text-decoration: none;
+}
 
 a:visited {
     color: rgb(0, 0, 0);
@@ -53,3 +78,18 @@ a:visited {
 a:hover {
     color: rgb(196, 115, 115);
 }
+
+
+@media screen and (min-width: 992px) {
+    .paiskonteiner {
+        background-image: url(./assets/Hills@2x.png);
+    }
+
+    .pealkiri-pilt {
+        display: block;
+    }
+
+    .pealkiri-kastid {
+        margin-top: 210px;
+    }
+    }

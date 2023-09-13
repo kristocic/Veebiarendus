@@ -10,6 +10,7 @@ body {
     background-size: cover;
 }
 
+
 .pais {
     display: flex;
     align-items: center;
@@ -44,12 +45,57 @@ body {
     font-weight: 800;
 }
 
+.rida h1 {
+    font-size: 74.39px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.rida h3 {
+    font-size: 20.83px;
+    text-transform: uppercase;
+    font-weight: 800;
+   
+}
+
+
+
 .liblikas1 {
     width: 75.27px;
     height: 66.04px;
     margin-top: -40px;
     margin-left: auto;
 }
+
+.liblikas2 {
+    width: 60px;
+    height: 32px;
+    margin-left: -70px;
+    
+}
+
+.pealis-pilt {
+    overflow: hidden;
+}
+
+
+.pealkiri-pilt .matkaja {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+}
+
+.pealkiri-pilt .vari {
+    width: 1091px;
+    height: 87px;
+    margin-top: -40px;
+    margin-right: 152px;
+}
+
+
 
 .pealkiri-kastid {
     margin-top: 50px;
@@ -80,6 +126,33 @@ a:hover {
 }
 
 
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+  }
+  
+  
+  .btn-primary {
+    background-color: rgb(8, 8, 8);
+    border-color: rgb(202, 34, 34); 
+    --bs-btn-hover-bg: #ee4b08;
+    --bs-btn-hover-border-color: #ee4b08;
+    margin-top: 50px;
+  }
+  
+  .btn-primary:hover {
+    background-color: orangered;
+    border-color: rgb(202, 34, 34); 
+    border-width: 4px;
+  }
+  
+  .btn-xl {
+    padding: 1rem 1rem;
+  
+  }
+
+
 @media screen and (min-width: 992px) {
     .paiskonteiner {
         background-image: url(./assets/Hills@2x.png);
@@ -92,4 +165,4 @@ a:hover {
     .pealkiri-kastid {
         margin-top: 210px;
     }
-    }
+}

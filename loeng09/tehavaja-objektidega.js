@@ -6,29 +6,26 @@ function valjasta (tekst) {
 function valjastaYlesanne (ylesanneObjekt) {
     let valjund = ''
     valjund += '<div class="ylesanne row">'
-    valjund +=      '<div class="col-8">' + ylesanneObjekt.kirjeldus + '</div>'
-    valjund +=      '<div class="col-4">' + ylesanneObjekt.prioriteet + '</div>'
-    valjund += '</div>'
-    valjasta (valjund);
+    valjund +=      '<div class= "col-8">'+ ylesanneObjekt.kirjeldus + '</div>'
+    valjund +=      '<div class= "col-4">'+ ylesanneObjekt.kirjeldus + '</div>'
+    valjund +='</div>'
+   valjasta (valjund);
 }
 
 function lisaUusYlesanne () {
     const sisestusElement = document.getElementById("uus-ylesanne");
-    valjasta('<div class="ylesanne">' + sisestusElement.value + '</div>')
+    const sisestusPrioriteetElement = document.getElementById("uus-prioriteet");
     const uusYlesanne = {
-        kirjeldus: sisestusElement.value,
-        prioriteet: sisetusPrioriteetElement.value
-        tehtud: false
+    kirjeldus: sisestusElement.value,
+    prioriteet: sisestusPrioriteetElement.value,
+    tehtud: false
+
     }
+    valjastaYlesanne(uusYlesanne)
     sisestusElement.value = ''
+    sisestusPrioriteetElement.value = ''
 }
 
-valjastaYlesanne (uusYlesanne)
-sisestusElement.value = ''
-sisetusPrioriteetElement.value = ''
-
-
-//valjasta ("<h2>Uus päev</h2>")
 
 
 const ylesanne1 = {
